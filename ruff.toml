@@ -1,0 +1,58 @@
+line-length = 100
+
+[format]
+docstring-code-format = true
+
+[lint]
+preview = true
+extend-select = [
+    "A",
+    "ARG",
+    "ASYNC",
+    "B",
+    "C4",
+    "COM",
+    "DJ",
+    "EM",
+    "ERA",
+    "FURB",
+    "FLY",
+    "G",
+    "I",
+    "ICN",
+    "INP",
+    "INT",
+    "ISC",
+    "LOG",
+    "N",
+    "NPY",
+    "PERF",
+    "PD",
+    "PIE",
+    "PGH",
+    "PL",
+    "PT",
+    "PTH",
+    "PYI",
+    "Q",
+    "RET",
+    "RSE",
+    "RUF",
+    "S",
+    "SIM",
+    "TID",
+    "TRY",
+    "UP",
+    "YTT",
+    "E501",
+]
+ignore = [
+    "COM812",
+    "ERA001",
+    "ISC001",
+    "NPY002",
+    "PLR0904",
+    "PLR0913",
+    "PLR0914",
+    "TID252",
+]

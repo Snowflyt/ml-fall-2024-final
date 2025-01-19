@@ -1,0 +1,25 @@
+[project]
+name = "ml-fall-2024-final"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Snowflyt", email = "gaoge011022@163.com" }]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "ipykernel (>=6.29.5,<7.0.0)",
+    "matplotlib (>=3.10.0,<4.0.0)",
+    "numpy (>=2.2.1,<3.0.0)",
+    "pandas (>=2.2.3,<3.0.0)",
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "torch (>=2.5.1,<3.0.0)",
+]
+
+[project.scripts]
+lstm = "ml_fall_2024_final.lstm.main:start"
+transformer = "ml_fall_2024_final.transformer.main:start"
+improved = "ml_fall_2024_final.improved.main:start"
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,27 @@
+# python generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# venv
+.venv
+
+# Output
+models/
+output/
+logs/
+
+# Editor
+.ipynb_checkpoints/
+.vscode/
+!**/.vscode/settings.json
+!**/.vscode/tasks.json
+!**/.vscode/launch.json
+!**/.vscode/extensions.json
+.idea/
+*.iml
+*.iws
+*.ipr
